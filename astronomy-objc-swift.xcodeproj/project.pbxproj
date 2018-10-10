@@ -15,6 +15,13 @@
 		49DAB006216DC1E800E58966 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB005216DC1E800E58966 /* PhotoCollectionViewController.swift */; };
 		49DAB008216DC20C00E58966 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB007216DC20C00E58966 /* PhotoDetailViewController.swift */; };
 		49DAB00D216DC5B300E58966 /* DODCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB00C216DC5B300E58966 /* DODCamera.m */; };
+		49DAB03C216EA18300E58966 /* DODMarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB03B216EA18300E58966 /* DODMarsRover.m */; };
+		49DAB03F216EA19A00E58966 /* DODSolDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB03E216EA19A00E58966 /* DODSolDescriptor.m */; };
+		49DAB042216EA1B500E58966 /* DODCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB041216EA1B500E58966 /* DODCache.m */; };
+		49DAB045216EA1EA00E58966 /* DODImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB044216EA1EA00E58966 /* DODImageCollectionViewCell.m */; };
+		49DAB04B216EA26300E58966 /* DODMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB04A216EA26300E58966 /* DODMarsRoverClient.m */; };
+		49DAB04F216EA29E00E58966 /* URL+Secure.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB04E216EA29E00E58966 /* URL+Secure.m */; };
+		49DAB052216EA2B900E58966 /* Image+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB051216EA2B900E58966 /* Image+Filtering.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,20 @@
 		49DAB007216DC20C00E58966 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		49DAB00B216DC5B300E58966 /* DODCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODCamera.h; sourceTree = "<group>"; };
 		49DAB00C216DC5B300E58966 /* DODCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODCamera.m; sourceTree = "<group>"; };
+		49DAB03A216EA18300E58966 /* DODMarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODMarsRover.h; sourceTree = "<group>"; };
+		49DAB03B216EA18300E58966 /* DODMarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODMarsRover.m; sourceTree = "<group>"; };
+		49DAB03D216EA19A00E58966 /* DODSolDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODSolDescriptor.h; sourceTree = "<group>"; };
+		49DAB03E216EA19A00E58966 /* DODSolDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODSolDescriptor.m; sourceTree = "<group>"; };
+		49DAB040216EA1B500E58966 /* DODCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODCache.h; sourceTree = "<group>"; };
+		49DAB041216EA1B500E58966 /* DODCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODCache.m; sourceTree = "<group>"; };
+		49DAB043216EA1EA00E58966 /* DODImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODImageCollectionViewCell.h; sourceTree = "<group>"; };
+		49DAB044216EA1EA00E58966 /* DODImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODImageCollectionViewCell.m; sourceTree = "<group>"; };
+		49DAB049216EA26300E58966 /* DODMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODMarsRoverClient.h; sourceTree = "<group>"; };
+		49DAB04A216EA26300E58966 /* DODMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODMarsRoverClient.m; sourceTree = "<group>"; };
+		49DAB04D216EA29E00E58966 /* URL+Secure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URL+Secure.h"; sourceTree = "<group>"; };
+		49DAB04E216EA29E00E58966 /* URL+Secure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "URL+Secure.m"; sourceTree = "<group>"; };
+		49DAB050216EA2B900E58966 /* Image+Filtering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image+Filtering.h"; sourceTree = "<group>"; };
+		49DAB051216EA2B900E58966 /* Image+Filtering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Image+Filtering.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +85,12 @@
 		49DAAFE2216DC0D100E58966 /* astronomy-objc-swift */ = {
 			isa = PBXGroup;
 			children = (
-				49DAAFFC216DC0F500E58966 /* Resources */,
 				49DAAFF9216DC0DE00E58966 /* Model */,
 				49DAAFFA216DC0E600E58966 /* Views */,
 				49DAAFFB216DC0EB00E58966 /* Controllers */,
 				49DAB000216DC1A900E58966 /* Networking */,
+				49DAB04C216EA27C00E58966 /* Utilities  */,
+				49DAAFFC216DC0F500E58966 /* Resources */,
 			);
 			path = "astronomy-objc-swift";
 			sourceTree = "<group>";
@@ -76,8 +98,14 @@
 		49DAAFF9216DC0DE00E58966 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				49DAB040216EA1B500E58966 /* DODCache.h */,
+				49DAB041216EA1B500E58966 /* DODCache.m */,
+				49DAB03A216EA18300E58966 /* DODMarsRover.h */,
+				49DAB03B216EA18300E58966 /* DODMarsRover.m */,
 				49DAB00B216DC5B300E58966 /* DODCamera.h */,
 				49DAB00C216DC5B300E58966 /* DODCamera.m */,
+				49DAB03D216EA19A00E58966 /* DODSolDescriptor.h */,
+				49DAB03E216EA19A00E58966 /* DODSolDescriptor.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +113,8 @@
 		49DAAFFA216DC0E600E58966 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				49DAB043216EA1EA00E58966 /* DODImageCollectionViewCell.h */,
+				49DAB044216EA1EA00E58966 /* DODImageCollectionViewCell.m */,
 				49DAAFEC216DC0D300E58966 /* Assets.xcassets */,
 				49DAAFEE216DC0D300E58966 /* LaunchScreen.storyboard */,
 			);
@@ -115,8 +145,21 @@
 		49DAB000216DC1A900E58966 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				49DAB049216EA26300E58966 /* DODMarsRoverClient.h */,
+				49DAB04A216EA26300E58966 /* DODMarsRoverClient.m */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		49DAB04C216EA27C00E58966 /* Utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				49DAB04D216EA29E00E58966 /* URL+Secure.h */,
+				49DAB04E216EA29E00E58966 /* URL+Secure.m */,
+				49DAB050216EA2B900E58966 /* Image+Filtering.h */,
+				49DAB051216EA2B900E58966 /* Image+Filtering.m */,
+			);
+			path = "Utilities ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,10 +233,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DAB042216EA1B500E58966 /* DODCache.m in Sources */,
 				49DAAFF3216DC0D300E58966 /* main.m in Sources */,
+				49DAB03F216EA19A00E58966 /* DODSolDescriptor.m in Sources */,
 				49DAAFE5216DC0D100E58966 /* AppDelegate.m in Sources */,
+				49DAB04F216EA29E00E58966 /* URL+Secure.m in Sources */,
+				49DAB04B216EA26300E58966 /* DODMarsRoverClient.m in Sources */,
 				49DAB00D216DC5B300E58966 /* DODCamera.m in Sources */,
+				49DAB03C216EA18300E58966 /* DODMarsRover.m in Sources */,
 				49DAB008216DC20C00E58966 /* PhotoDetailViewController.swift in Sources */,
+				49DAB045216EA1EA00E58966 /* DODImageCollectionViewCell.m in Sources */,
+				49DAB052216EA2B900E58966 /* Image+Filtering.m in Sources */,
 				49DAB006216DC1E800E58966 /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
