@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 class PhotoDetailViewController: UIViewController {
 
     override func viewDidLoad() {

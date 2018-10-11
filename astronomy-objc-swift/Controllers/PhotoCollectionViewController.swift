@@ -10,6 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
+@objcMembers
 class PhotoCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {

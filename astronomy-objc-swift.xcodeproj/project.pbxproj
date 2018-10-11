@@ -22,6 +22,7 @@
 		49DAB04B216EA26300E58966 /* DODMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB04A216EA26300E58966 /* DODMarsRoverClient.m */; };
 		49DAB04F216EA29E00E58966 /* URL+Secure.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB04E216EA29E00E58966 /* URL+Secure.m */; };
 		49DAB052216EA2B900E58966 /* Image+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB051216EA2B900E58966 /* Image+Filtering.m */; };
+		49DAB054216EA88100E58966 /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB053216EA88100E58966 /* MarsPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		49DAB04E216EA29E00E58966 /* URL+Secure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "URL+Secure.m"; sourceTree = "<group>"; };
 		49DAB050216EA2B900E58966 /* Image+Filtering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image+Filtering.h"; sourceTree = "<group>"; };
 		49DAB051216EA2B900E58966 /* Image+Filtering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Image+Filtering.m"; sourceTree = "<group>"; };
+		49DAB053216EA88100E58966 /* MarsPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,6 @@
 		49DAAFD7216DC0D100E58966 = {
 			isa = PBXGroup;
 			children = (
-				49DAB004216DC1E700E58966 /* astronomy-objc-swift-Bridging-Header.h */,
 				49DAAFE2216DC0D100E58966 /* astronomy-objc-swift */,
 				49DAAFE1216DC0D100E58966 /* Products */,
 			);
@@ -85,6 +86,7 @@
 		49DAAFE2216DC0D100E58966 /* astronomy-objc-swift */ = {
 			isa = PBXGroup;
 			children = (
+				49DAB004216DC1E700E58966 /* astronomy-objc-swift-Bridging-Header.h */,
 				49DAAFF9216DC0DE00E58966 /* Model */,
 				49DAAFFA216DC0E600E58966 /* Views */,
 				49DAAFFB216DC0EB00E58966 /* Controllers */,
@@ -106,6 +108,7 @@
 				49DAB00C216DC5B300E58966 /* DODCamera.m */,
 				49DAB03D216EA19A00E58966 /* DODSolDescriptor.h */,
 				49DAB03E216EA19A00E58966 /* DODSolDescriptor.m */,
+				49DAB053216EA88100E58966 /* MarsPhoto.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DAB042216EA1B500E58966 /* DODCache.m in Sources */,
+				49DAB054216EA88100E58966 /* MarsPhoto.swift in Sources */,
 				49DAAFF3216DC0D300E58966 /* main.m in Sources */,
 				49DAB03F216EA19A00E58966 /* DODSolDescriptor.m in Sources */,
 				49DAAFE5216DC0D100E58966 /* AppDelegate.m in Sources */,
@@ -396,7 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.astronomy-objc-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "astronomy-objc-swift/Controllers/astronomy-objc-swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "astronomy-objc-swift/astronomy-objc-swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,7 +421,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.astronomy-objc-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "astronomy-objc-swift/Controllers/astronomy-objc-swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "astronomy-objc-swift/astronomy-objc-swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
