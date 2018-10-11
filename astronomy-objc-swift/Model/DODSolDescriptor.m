@@ -10,4 +10,24 @@
 
 @implementation DODSolDescriptor
 
+- (instancetype)initWithInt:(NSInteger)sol totalPhotos:(NSInteger)totalPhotos cameras:(NSArray *)cameras
+{
+    if (self) {
+        
+        _sol = sol;
+        _totalPhotos = totalPhotos;
+        _cameras = cameras;
+    }
+    return self;
+}
+
+- (instancetype)initWithDictionary:(NSDictionary*)dictionary
+{
+    NSInteger sol = [dictionary[@"sol"] integerValue];
+    NSInteger totalPhotos = [dictionary[@"totalPhotos"] integerValue];
+    NSArray *cameras = dictionary[@"cameras"];
+    
+    return [self initWithInt:sol totalPhotos:totalPhotos cameras:cameras];
+}
+
 @end
